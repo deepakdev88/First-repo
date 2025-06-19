@@ -1,66 +1,30 @@
-package com.example.happybirthday
+# 🎉 Happy Birthday App
 
-import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
-import com.example.happybirthday.ui.theme.HappyBirthdayTheme
+This is a simple Android app built using **Jetpack Compose** and **Kotlin** to display a birthday greeting card.
 
-class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContent {
-            HappyBirthdayTheme {
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    GreetingText(
-                        message = "Happy Birthday Deepak!",
-                        from = "From Chotu",
-                        modifier = Modifier.padding(8.dp)
-                    )
-                }
-            }
-        }
-    }
-}
+## 📱 Features
 
-@Composable
-fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
-    Column(modifier = modifier) {
-        Text(
-            text = message,
-            fontSize = 100.sp,
-            lineHeight = 116.sp
-        )
+- Displays a large birthday message
+- Shows a “From” signature
+- Built using modern Android development practices
 
-        Text(
-            text = from,
-            fontSize = 36.sp
-        )
-    }
-}
+## 🛠️ Tech Stack
 
-@Preview(showBackground = true)
-@Composable
-fun BirthdayCardPreview() {
-    HappyBirthdayTheme {
-        GreetingText(
-            message = "Happy Birthday Deepak!",
-            from = "From Chotu"
-        )
-    }
-}
+- Kotlin
+- Android Studio
+- Jetpack Compose
+- Material 3 Design
+
+## 📸 Screenshot
+
+*(Add a screenshot here later if you want)*
+
+## 📦 How to Run
+
+1. Clone the repo:
+2. Open in Android Studio
+3. Run on Emulator or Device
+
+## 🙋‍♂️ Author
+
+Made with  by **Deepak Singh (aka deepakdev88)** 
