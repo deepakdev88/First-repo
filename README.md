@@ -19,7 +19,9 @@ A simple Android app built with **Jetpack Compose** that displays a personalized
 
 | Birthday Greeting Screen |
 |--------------------------|
-![Uploading Screenshot_20250621_200501_Happy Birthday.jpg…]()
+
+![Screenshot_20250621_200501_Happy Birthday](https://github.com/user-attachments/assets/f428eb85-d0d3-462d-b029-095c0bd31f56)
+
 
 
 
