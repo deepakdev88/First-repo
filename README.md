@@ -15,7 +15,16 @@ A simple Android app built with **Jetpack Compose** that displays a personalized
 
 ---
 
+## 📸 Screenshot
 
+| Birthday Greeting Screen |
+|--------------------------|
+![Uploading Screenshot_20250621_200501_Happy Birthday.jpg…]()
+
+
+
+
+---
 
 ## 🚀 Getting Started
 
@@ -31,39 +40,25 @@ A simple Android app built with **Jetpack Compose** that displays a personalized
    git clone https://github.com/deepakdev88/First-repo.git
    ```
 2. Open the project in Android Studio.
-3. Run the app on an emulator or Android device.
+3. Connect an Android device or start an emulator.
+4. Click **Run** ▶️ to build and launch the app.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Code Structure
 
-- **Language:** Kotlin
-- **UI Toolkit:** Jetpack Compose
-- **Material 3 Design**
-- **Android SDK**
+- All UI is built in `MainActivity.kt` using composable functions.
+- The greeting text and sender can be easily customized in code.
 
 ---
 
-## 📚 Learning Resources
+## 📚 Learn More
 
-- [Jetpack Compose Codelab](https://developer.android.com/codelabs/jetpack-compose-basics)
-- [Official Compose Documentation](https://developer.android.com/jetpack/compose/documentation)
-
----
-
-## 🙋‍♂️ Author
-
-**Deepak Dev**  
-Follow me on [GitHub](https://github.com/deepakdev88)
+- [Jetpack Compose Documentation](https://developer.android.com/jetpack/compose)
+- [Google Codelabs: Jetpack Compose](https://developer.android.com/codelabs/jetpack-compose-basics)
 
 ---
 
-## 🤝 Contributing
+## 📝 License
 
-This is a beginner project for learning purposes. Feel free to fork, star, or suggest improvements!
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+This project is for learning purposes only.
